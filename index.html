@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./style.css">
+  <title>Meditate</title>
+</head>
+
+<body>
+  <main>
+    <h1> 🧘🏼‍ Welcome 🧘🏼‍ </h1>
+    <h2>Fill out the information below to begin.</h2>
+    <p class="main-text">When meditating, your thoughts matter. What would you like to breath in? What would you like to
+      let go of as you
+      exhale?</p>
+    <input id="positive" class="word-input" type="text" name="firstword" value="" placeholder="positve word ">
+    <input id="negative" class="word-input" type="text" name="secondword" value="" placeholder="negative word ">
+    <p>How long would you like to meditate?</p>
+    <article class="input-boxes">
+      <label class="input-label" for="30">30 Seconds</label>
+      <input checked type="radio" name="30">
+      <label class="input-label" for="60">60 Seconds</label>
+      <input type="radio" name="60">
+      <label class="input-label" for="90">90 Seconds</label>
+      <input type="radio" name="90">
+    </article>
+    <button id="begin-btn"><a href="./main.html">Begin</a></button>
+  </main>
+  <script src="main.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</body>
+
+</html>

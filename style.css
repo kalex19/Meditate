@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: cadetblue;
+}
+
+main {
+  color: white;
+  font-size: 2em;
+  margin: 1%;
+  text-align: center;
+}
+
+.main-text {
+  margin: 0 25%;
+  width: 50%;
+}
+
+.word-input {
+  background-color: cornsilk;
+  height: 50px;
+  margin: 3%;
+  text-align: center;
+  width: 10%;
+}
+
+.input-boxes {
+  display: block;
+  margin: 0 45%;
+  width: 10%;
+}
+
+.input-label {
+  font-size: 0.8em;
+}
+
+input {
+  font-size: 0.8em;
+  outline: none;
+}
+
+#begin-btn {
+  background-color: cornsilk;
+  font-size: 1.2em;
+  height: 80px;
+  margin: 3%;
+  outline: none;
+  padding: 1%;
+  width: 15%;
+}
+
+#begin-btn:hover {
+  background-color: cornflowerblue;
+}
+
+a {
+  color: cornflowerblue;
+}
+
+a:hover {
+  color: cornsilk;
+}
+
+div.imageContainer {
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
