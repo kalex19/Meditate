@@ -23,7 +23,7 @@ main {
   height: 50px;
   margin: 3%;
   text-align: center;
-  width: 10%;
+  width: 12%;
 }
 
 .input-boxes {
@@ -63,12 +63,12 @@ a:hover {
   color: cornsilk;
 }
 
-div.imageContainer {
-  background-position: 0px 0px;
-  background-repeat: no-repeat;
-  width: 300px;
-  height: 300px;
-  position: absolute;
-  top: 0;
-  left: 0;
+.breatheContainer {
+  margin: 20% 35%;
+}
+
+.card {
+  color: white;
+  font-size: 3em;
+  margin: 5%;
 }

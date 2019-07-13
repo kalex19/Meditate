@@ -1,11 +1,6 @@
-var posInput = $('#positive').val()
-var negInput = $('#negative').val()
-var container = $('.breathContainer')
-var thirty =
-  var sixty =
-    var ninty =
-
-      function breath() {
-
-        container.append(``)
-      }
+//get from storage
+//append to dom
+//use keyframe for animation
+//timer for key frame based on radio button
+//get timer from local storage set in other file
+//adjust animation based on timer
